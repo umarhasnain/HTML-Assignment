@@ -1,0 +1,79 @@
+.main{
+    padding-left: 60px;
+    padding-right: 40px;
+}
+
+.details{
+    display: flex;
+    padding: 0px;
+
+}
+
+.one{
+    padding: 0px;
+    margin: 0px;
+}
+
+.text > h1{
+    margin-bottom: 0px;
+}
+
+.text > h3{
+    margin-top: 0px;
+    margin-bottom: 5px;
+}
+
+
+.text{
+    margin: 0px;
+    padding: 0px;
+}
+
+.details > li{
+    list-style-type: none;
+    margin-top: 0px;
+    padding-top: 0px;
+    margin: 20px;
+}
+
+
+.two > h2{
+ margin-right: 20px;
+}
+
+.skills{
+    display: flex;
+    justify-content: space-between;
+    margin: 30px;
+    list-style-type: square;
+}
+
+.lang{
+    display: flex;
+    justify-content: space-evenly;
+    margin: 30px;
+    list-style-type: square;
+}
+
+
+.three_1 > h4{
+margin-bottom: 0px;}
+
+.three_1 > h5{
+margin-top: 0px;
+}
+.three2 > h4{
+    margin-bottom: 0px;
+    }
+    
+    .three2 > h5{
+        margin-top: 0px;
+}
+
+.test2 > h3{
+    margin-bottom: 0px;
+}
+
+.test2 > h4 {
+    margin-top: 0px;
+}
