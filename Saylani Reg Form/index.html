@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Saylani Registeration Form</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="main">
+        <header>
+            <center> <img src="images\download (2).png" alt="" class="header_logo">
+                <h1 class="header_h1">Course Registeration Form</h1>
+                <h3>Services-Education-Registration</h3>
+            </center>
+        </header>
+        <div class="btn_header">
+            <center> <b>
+                    <button class="new_app" id="btn_head">New Application </button>
+                    <button class="id_card" id="btn_head">Download ID Card</button>
+                    <button class="results" id="btn_head">Results</button></b>
+            </center>
+        </div>
+        <div class="form">
+            <form onsubmit=" lacaladd();">
+                <div class="userdetails">
+                    <p> Select City <br>
+                        <select name="course" id="slct_city" class="input_type">
+                            <option value="opt">Select City</option>
+                            <option value="Karachi">Karachi</option>
+                            <option value="Orangi town">Orangi Town</option>
+                            <option value="Hyderabad">Hyderabad</option>
+                        </select>
+                    </p>
+
+                    <p>Select Course <br>
+                        <select name="course" id="slct_course" class="input_type">
+                            <option value="opt">Select Course</option>
+                            <option value="opt">Graphic Designing</option>
+                            <option value="opt">Web Development</option>
+                            <option value="opt">Video Editing</option>
+                        </select>
+                    </p>
+                    <p>FullName <br>
+                        <input type="text" name="fullname" id="name" placeholder="FullName" class="input_type" size="20"
+                            maxlength="30" />
+                    </p>
+
+                    <p>FatherName <br>
+                        <input type="text" name="fathername" id="fathername" placeholder="FatherName" class="input_type" size="20"
+                            maxlength="30" />
+                    </p>
+
+                    <p>Email <br>
+                        <input type="email" name="email" id="email" placeholder="example@gmail.com"
+                            class="input_type" />
+
+                    </p>
+
+                    <p>Phone No <br>
+
+                        <input type="number" id="num" maxlength="11" placeholder="Phone No" class="input_type" />
+
+                    </p>
+
+
+                    <p>CNIC <br>
+
+                        <input type="number" maxlength="15" placeholder="CNIC" class="input_type" id="cnic" />
+
+                    </p>
+
+
+                    <p>Father CNIC (optional) <br>
+
+                        <input type="number" id="fathercnic" maxlength="11" placeholder="Father CNIC" class="input_type" />
+
+                    </p>
+
+                    <p>Date of Birth <br>
+                        <input type="date" id="birth" class="input_type">
+
+                    </p>
+                    <p>Select Gender <br>
+                        <select name="gender" id="gender" class="input_type" width="50px">
+
+                            <option value="selct_Gnder">Select Gender</option>
+                            <option value="male">Male</option>
+                            <option value="female">Female</option>
+                        </select>
+                    </p>
+                    <p>Address <br>
+                        <input type="address" id="adress" placeholder="Address" class="input_type" size="50">
+                    </p>
+
+                    <p> Last Qualification <br>
+                        <select name="qualification" id="qualification" class="input_type">
+                            <option value="opt"> Last Qualification</option>
+                            <option value="opt"> Grade 5-8</option>
+                            <option value="opt"> Matric</option>
+                            <option value="opt"> Intermediate</option>
+                            <option value="opt"> Undergraduate</option>
+                            <option value="opt"> Graduate</option>
+                            <option value="opt"> Master</option>
+                            <option value="opt"> PHD</option>
+                        </select>
+
+                    </p> <br>
+                    <p>
+                        <picture> Picture <br>
+                            <input type="file" size="50" class="input_type">
+                        </picture>
+
+                    </p>
+                    <p class="words">
+                        1. I hereby, solemnly declare that the data and facts mentioned herein are true and correct to
+                        the best of my knowledge. Further, I will abide by all the established and <br> future
+                        regulations and policies of SWIT <br>
+                        2. I hereby accept the responsibilities of good conduct and guarantee that I will not be
+                        involved in any other activity, political or ethical, but learning during my stay in the
+                        program. <br>
+                        3. Defiance will render my admission canceled at any point in time. <br>
+                        4. Upon completion, of the course, I will complete the required project by SWIT. <br>
+                    </p>
+
+                    <button class="Submit_btn" id="submitbtn"> SUBMIT</button>
+
+                    </b>
+            </form>
+        </div>
+    </div>
+    </div>
+
+
+<script src="app.js"></script>
+</body>
+
+</html>
